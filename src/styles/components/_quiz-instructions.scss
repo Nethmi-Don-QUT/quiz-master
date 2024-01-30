@@ -1,0 +1,99 @@
+#instructions{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color4;
+
+    section {
+        background-color: rgba($color: $color5, $alpha: 0.7);
+        height: 80%;
+        width: 35%;
+        padding-left: $md;
+        padding-right: $md;
+        padding-top: $md;
+        border-radius: 5px;
+    }
+
+    .display-logo{
+        display: flex;
+        justify-content: center;
+    }
+    #logo{
+        max-width: $xlg;
+    }
+
+
+    h1{
+        text-align: center;
+        color: $color4;
+        font-size: $lg;
+        font-weight: 400;
+
+    }
+
+    .play-button-container{
+        width: 100%;
+    }
+
+    a.play-button{
+        background-color: $color4;
+        color: $color5;
+        padding: $normal;
+        border-radius: $button-radius;
+        display: block;
+        text-align: center;
+        
+    }
+
+    a.play-button:hover{
+        background-color: darken($color4, 10%);
+
+
+        
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto $sm auto;
+        padding: $md;
+        width: 80%;
+
+    }
+
+    .button-container button {
+        border: none;
+        color: $color5;
+        cursor: pointer;
+        font-family: $quicksand;
+        border-radius: $button-radius;
+        margin-right: $md;
+        padding: $xs $sm;
+    }
+
+    #back-button{
+        background-color: $color1;
+    }
+    #start-button{
+        background-color: $color2;
+    }
+
+    p {
+        font-weight: bold;
+        padding-bottom: $md;
+    }
+
+
+}
+
+@media (max-width: $md-breakpoint){
+    #instructions section{
+        padding: 0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+
+}

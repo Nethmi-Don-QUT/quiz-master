@@ -1,0 +1,53 @@
+#summary{
+    h1{
+        text-align: center;
+        color: $color4;
+        font-size: $lg;
+        font-weight: 400;
+
+    }
+
+    .display-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: $md;
+    }
+    #logo1{
+        max-width: $xlg;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    strong {
+        font-weight: bold !important;
+    }
+    
+    .button-container{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto $sm auto;
+        padding: $md;
+        width: 80%;
+
+    }
+
+    .button-container button {
+        border: none;
+        color: $color5;
+        cursor: pointer;
+        font-family: $quicksand;
+        border-radius: $button-radius;
+        margin-right: $md;
+        padding: $xs $sm;
+    }
+
+    #back-button{
+        background-color: $color1;
+    }
+    #quit-button{
+        background-color: $color2;
+    }
+}

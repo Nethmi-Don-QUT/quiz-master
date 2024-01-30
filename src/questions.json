@@ -1,0 +1,105 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "optionA": "Berlin",
+        "optionB": "London",
+        "optionC": "Paris",
+        "optionD": "Rome",
+        "answer": "Paris",
+        "hint": "Think about the famous Eiffel Tower."
+    },
+
+    {
+        "question": "How many sides does a triangle have?",
+        "optionA": "Three",
+        "optionB": "Four",
+        "optionC": "Five",
+        "optionD": "Six",
+        "answer": "Three",
+        "hint": "Draw a trangle and count the sides."
+    },
+    {
+        "question": "If you have 5 apples and you give away 2, how many apples do you have left?",
+        "optionA": "2",
+        "optionB": "3",
+        "optionC": "5",
+        "optionD": "7",
+        "answer": "3",
+        "hint": "Perform the subtraction to find out how many apples are left."
+    },
+    {
+        "question": "Which of the following is a mammal?",
+        "optionA": "Snake",
+        "optionB": "Fish",
+        "optionC": "Dog",
+        "optionD": "Spider",
+        "answer": "Dog",
+        "hint": "Think about animals that typically have fur and give birth to live young."
+
+    },
+    {
+        "question": "What comes after this sequence: 3, 6, 9, __?",
+        "optionA": "12",
+        "optionB": "15",
+        "optionC": "18",
+        "optionD": "21",
+        "answer": "12",
+        "hint": "Identify the pattern in the sequence and continue it."
+
+    },
+    {
+        "question": "What has keys but can't open locks?",
+        "optionA": "Piano",
+        "optionB": "Computer",
+        "optionC": "Treasure chest",
+        "optionD": "Map",
+        "answer": "Piano",
+        "hint": "Think about a musical instrument with keys."
+    },
+    {
+        "question": "What comes once in a minute, twice in a moment, but never in a thousand years?",
+        "optionA": "The letter 'M'",
+        "optionB": "The number '2'",
+        "optionC": "The word 'Time'",
+        "optionD": "The color 'Blue'",
+        "answer": "The letter 'M'",
+        "hint": "Pay attention to the wording of the question and focus on time-related concepts."
+
+    },
+    {
+        "question": "What begins and has no end, and is the ending of all that begins?",
+        "optionA": "Sunset",
+        "optionB": "Circle",
+        "optionC": "Infinity",
+        "optionD": "The letter 'Z'",
+        "answer": "Circle",
+        "hint": "Think about a shape that is continuous and has no sharp edges."
+
+    },
+    {
+        "question": "The more you take, the more you leave behind. What am I?",
+        "optionA": "Footsteps",
+        "optionB": "Memories",
+        "optionC": "Time",
+        "optionD": "Money",
+        "answer": "Footsteps",
+        "hint": "Consider what is left behind when you walk or run."
+
+    },
+    {
+        "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+        "optionA": "Echo",
+        "optionB": "Cloud",
+        "optionC": "Whistle",
+        "optionD": "Shadow",
+        "answer": "Echo",
+        "hint": "Think about a phenomenon related to sound and reflections."
+
+    }
+
+
+
+
+
+
+]

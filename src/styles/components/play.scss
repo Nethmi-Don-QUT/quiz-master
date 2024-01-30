@@ -1,0 +1,111 @@
+.questions {
+    background-color: $color5;
+    border-left: 5px solid $color4;
+    width: 80%;
+    margin: $lg auto 0 auto;
+    padding: $sm $md;
+
+
+    h2 {
+        text-align: center;
+        font-weight: lighter;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .options-container {
+        display: inline-block;
+        width: 50%;
+
+    }
+
+    .option {
+        background-color: $color2;
+        border-radius: $button-radius;
+        color: $color5;
+        cursor: pointer;
+        margin: $md auto;
+        padding: $normal;
+        transition: 0.3s linear all;
+        text-align: center;
+        width: 90%;
+
+    }
+
+    .option:hover {
+        background-color: darken($color2, 10%);
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto $sm auto;
+        padding: $md;
+        width: 80%;
+        justify-content: center;
+
+    }
+
+    .button-container button {
+        border: none;
+        color: $color5;
+        cursor: pointer;
+        font-family: $quicksand;
+        margin-right: $md;
+        padding: $xs $sm;
+        border-radius: $button-radius;
+
+    }
+
+    .button-container button:first-child {
+        background-color: darken($color1, 10%);
+        transition: 0.2s linear all;
+    }
+
+    .button-container button:first-child:hover {
+        background-color: darken($color1, 20%);
+
+    }
+
+    .button-container button:nth-child(2) {
+        background-color: darken($color4, 10%);
+        transition: 0.2s linear all;
+    }
+
+    .button-container button:nth-child(2):hover {
+        background-color: darken($color4, 20%);
+
+    }
+
+
+    .button-container button:last-child {
+        background-color: darken($error-text, 10%);
+        transition: 0.2s linear all;
+    }
+
+    .button-container button:last-child:hover {
+        background-color: darken($error-text, 20%);
+
+    }
+
+    label {
+        color: $success-text;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: $md-breakpoint) {
+    .questions {
+        border-left-width: 0;
+
+
+
+    }
+
+}

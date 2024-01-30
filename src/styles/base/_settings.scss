@@ -1,0 +1,29 @@
+//colors
+$color1: rgb(34, 87,119);
+$color2: rgb(58, 134,143);
+$color3: rgb(236, 236,217);
+$color4: rgb(23, 48,84);
+$color5: rgb(255, 255,255);
+$error-text: rgb(152, 39, 39);
+$success-text: rgb(39, 152, 69);
+
+//sizes
+$xs: 0.5rem;
+$normal: 1rem;
+$sm: 1.5rem;
+$md: 2rem;
+$lg: 3rem;
+$xlg: 5rem;
+$xxlg: 7rem;
+
+//buttons
+$button-radius: 30px;
+
+//fonts
+$quicksand: "Quicksand", sans-serif;
+
+//breakpoints
+$lg-breakpoint: 1024px;
+$md-breakpoint: 768px;
+$sm-breakpoint: 641px;
+$xs-breakpoint: 480px;
